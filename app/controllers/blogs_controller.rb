@@ -28,17 +28,15 @@ class BlogsController < ApplicationController
 
     respond_to do |format|
       if @blog.save
-        format.html { redirect_to @blog, notice: 'Blog was successfully created.' }
-        format.json { render :show, status: :created, location: @blog }
+        format.html { redirect_to @blog, notice: 'Blog was created.' }
       else
         format.html { render :new }
-        format.json { render json: @blog.errors, status: :unprocessable_entity }
       end
     end
   end
 
   # PATCH/PUT /blogs/1
-  # PATCH/PUT /blogs/1.json
+  # PATCH/PUT /blogs/1.jsonxx`
   def update
     respond_to do |format|
       if @blog.update(blog_params)
