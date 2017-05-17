@@ -21,6 +21,5 @@ puts "5 skills created"
   body: "Etiam molestie iaculis nisi eget euismod. Morbi sagittis quam non enim aliquam, efficitur elementum magna mollis. Aenean sed aliquam neque, ut imperdiet ipsum. Nam rhoncus mi quis mi consequat viverra. Sed est quam, rutrum vitae nunc in, tincidunt consequat turpis. Praesent a elit et tellus elementum porttitor quis in mauris. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas eu lectus nisi. Nunc a hendrerit lectus. Duis dictum dolor nibh, nec tincidunt mi lobortis eu. Fusce fringilla justo vitae odio feugiat, eget rutrum lorem bibendum. Duis tincidunt laoreet eros, vitae eleifend est. Fusce ultricies magna dignissim elit mattis malesuada. Integer tristique ornare ex vel scelerisque. Etiam nisi risus, vehicula in turpis vel, malesuada convallis est. Pellentesque sed ante at magna pharetra dictum. Morbi posuere tellus quis lectus volutpat hendrerit.",
   main_image: "http://placehold.it/600x400",
   thumb_image: "http://placehold.it/350x200"
-  )
-end
+  )end
 puts "9 portfolios created"
