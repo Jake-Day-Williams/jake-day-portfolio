@@ -4,12 +4,15 @@ class BlogsController < ApplicationController
   # GET /blogs
   # GET /blogs.json
   def index
+    @page_title = "Portfolio Blog"
     @blogs = Blog.all
   end
 
   # GET /blogs/1
   # GET /blogs/1.json
   def show
+    @page_title = @blog.title
+    @seo_keywords = @blog.body # Need to create a keyword attribute for blogs
   end
 
   # GET /blogs/new
