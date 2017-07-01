@@ -28,6 +28,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.2'
+# Format query outputs
+gem 'hirb'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
