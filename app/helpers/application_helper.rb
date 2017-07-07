@@ -17,4 +17,7 @@ module ApplicationHelper
     end
   end
 
+  def copyright_generator
+    JakedayViewTool::Renderer.copyright "Jake Day", "All rights reserved"
+  end
 end

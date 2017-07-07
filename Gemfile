@@ -30,6 +30,9 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.2'
 # Format query outputs
 gem 'hirb'
+gem 'jquery-rails'
+gem 'bootstrap', '~> 4.0.0.alpha6'
+
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
@@ -56,3 +59,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem "jakeday_view_tool", git: 'https://github.com/Jake-Day-Williams/jakeday_view_tool'
