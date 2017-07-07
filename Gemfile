@@ -61,3 +61,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'jakeday_view_tool', '~> 0.1.0'
+gem 'petergate', '~> 1.7', '>= 1.7.5'
