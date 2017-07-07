@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/Jake-Day-Williams/jakeday_view_tool
-  revision: a90049e470c4284b918b5f5071188514353bf768
-  specs:
-    jakeday_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -78,6 +72,7 @@ GEM
       activesupport (>= 4.2.0)
     hirb (0.7.3)
     i18n (0.8.1)
+    jakeday_view_tool (0.1.0)
     jbuilder (2.6.3)
       activesupport (>= 3.0.0, < 5.2)
       multi_json (~> 1.2)
@@ -198,7 +193,7 @@ DEPENDENCIES
   devise (~> 4.2)
   friendly_id (~> 5.1.0)
   hirb
-  jakeday_view_tool!
+  jakeday_view_tool (~> 0.1.0)
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
