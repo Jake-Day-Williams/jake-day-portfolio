@@ -31,6 +31,7 @@ gem 'devise', '~> 4.2'
 # Format query outputs
 gem 'hirb'
 gem 'jquery-rails'
+gem 'jquery-ui-rails' 
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
 
