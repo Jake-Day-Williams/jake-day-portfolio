@@ -40,7 +40,7 @@ module ApplicationHelper
         title: "Blog"
       },
       {
-        url: root_path,
+        url: portfolios_path,
         title: "Portfolio"
       }
     ]
