@@ -31,7 +31,7 @@ gem 'devise', '~> 4.2'
 # Format query outputs
 gem 'hirb'
 gem 'jquery-rails'
-gem 'jquery-ui-rails' 
+gem 'jquery-ui-rails'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
 
@@ -65,3 +65,7 @@ gem 'jakeday_view_tool', '~> 0.1.0'
 gem 'petergate', '~> 1.7', '>= 1.7.5'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 gem 'kaminari', '~> 1.0', '>= 1.0.1'
+gem 'carrierwave', '~> 1.1'
+gem 'carrierwave-aws', '~> 1.2'
+gem 'mini_magick', '~> 4.8'
+gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
