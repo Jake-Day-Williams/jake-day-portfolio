@@ -214,10 +214,10 @@ body {
   margin: 20px;
 }
 
-.tech-news a {
-  color: green;
+.tech-news > .card {
+  padding: 25px;
 }
 
-.tech-news > .card {
-  padding: 20px;
+.tech-news a {
+  color: green;
 }
