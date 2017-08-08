@@ -221,3 +221,22 @@ body {
 .tech-news a {
   color: green;
 }
+
+.app-card-container {
+  color: black;
+  text-align: left;
+}
+
+.app-card-container > .card {
+  color: black;
+  text-align: left;
+  padding: 30px;
+}
+
+.profile-img {
+  border: 1px solid;
+}
+
+.app-card-container a {
+  color: blue;
+}
