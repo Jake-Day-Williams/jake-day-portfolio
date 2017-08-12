@@ -1,0 +1,17 @@
+<div class="comment-card">
+  <div class="card">
+    <div class="card-block">
+      <div class="row">
+        <div class="col-md-12">
+          <div>
+          <%= comment.content %>
+        </div>
+        <div class="comment-attribution">
+          <%= comment.user.name %> - 
+          <%= time_ago_in_words(comment.updated_at) + " ago" %>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
