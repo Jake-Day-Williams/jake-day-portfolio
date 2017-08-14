@@ -1,10 +1,12 @@
-<div class="app-card-container">
+<div>
+  <div class="app-card-container">
   <div class="card">
-
     <h1>About Me</h1>
+
     <hr>
 
     <div class="row">
+
       <div class="col-md-4">
         <%= image_tag "jakeday.jpg", width: 300, alt: "profile image", class: "profile-img" %>
         <div class="skills">
@@ -30,6 +32,7 @@
         <p>Hello...</p>
         <p>My name is Jake Day and my passion is building software products for small businesses and startups. I also create design and programming videos and books which have been viewed and read by over 3 million people. You can find out more about my education and project history below.</p>
 
+        <p>
           <button
             class="btn btn-primary"
             type="button"
@@ -62,6 +65,7 @@
           >
             Education
           </button>
+        </p>
 
 
         <p>
@@ -76,9 +80,7 @@
               Wild Academy - Instructor and Founder. Online programming and design courses.
             </div>
           </div>
-        </p>
 
-        <p>
           <div class="collapse" id="productHistory">
             <div class="card card-block">
               <%= link_to "Wild Academy", "https://www.wildacademy.com/" %>
@@ -94,9 +96,7 @@
               <%= link_to "Learn PHP", "https://www.amazon.com/Learn-PHP-Beginner-Introduction-Programming-ebook/dp/B00ULKOU1O/" %>
             </div>
           </div>
-        </p>
 
-        <p>
           <div class="collapse" id="educationHistory">
             <div class="card card-block">
               DPL's University of Utah Web Design and Development Academy - Full Stack Ruby on Rails
@@ -105,7 +105,8 @@
         </p>
 
       </div>
-    </div>
 
-  </dvi>
+    </div>
+  </div>
+</div>
 </div>

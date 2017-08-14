@@ -34,6 +34,7 @@ body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
 }
+
 body {
   color: #fff;
   text-align: center;
@@ -85,7 +86,7 @@ h6, .h6 {
 }
 
 .masthead-brand a:hover {
-  color: red;
+  color: #ff00a1;
   text-decoration: none;
 }
 
@@ -99,7 +100,7 @@ h6, .h6 {
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  color: red;
+  color: #ff00a1
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -107,7 +108,7 @@ h6, .h6 {
 }
 
 .nav-masthead .active {
-  color: red;
+  color: #ff00a1;
   border-bottom-color: grey;
 }
 
@@ -215,7 +216,8 @@ h6, .h6 {
   height: auto;
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
-  -transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: image-url('home_bg.png') no-repeat;
   background-size: cover;
 }
 
@@ -242,13 +244,11 @@ h6, .h6 {
 }
 
 .app-card-container > .card {
-  color: black;
-  text-align: left;
-  padding: 30px;
+  padding: 40px;
 }
 
 .profile-img {
-  border: 1px solid;
+  border: 1px solid grey;
 }
 
 .app-card-container a {
